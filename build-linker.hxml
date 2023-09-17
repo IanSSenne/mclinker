@@ -1,0 +1,9 @@
+
+-cp src
+-L hx_webserver
+-m MCLinker
+
+--cpp bin/MCLinker
+--resource src/viewer.zip@viewer
+--dce full
+-D analyzer-optimize
